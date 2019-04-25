@@ -1,0 +1,27 @@
+{
+  "description" : "Rules for accessing the interwebs with Firefox.",
+  "name" : "Firefox",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1556187154.513839,
+      "modificationDate" : 1556187281.8599172,
+      "notes" : "On Apr 25, 2019, Firefox tried to establish a connection to multiple servers. The request was allowed in Network Monitor.",
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1556187120.429956,
+      "modificationDate" : 1556187288.1067419,
+      "owner" : "me",
+      "ports" : "443",
+      "process" : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
+      "protocol" : "udp",
+      "remote" : "any"
+    }
+  ]
+}
