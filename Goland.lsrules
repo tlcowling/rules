@@ -1,0 +1,22 @@
+{
+  "description" : "Rules for using Jetbrains Goland",
+  "name" : "Goland",
+  "rules" : [
+    {
+      "action" : "allow",
+      "creationDate" : 1556187315.345638,
+      "modificationDate" : 1556187315.345638,
+      "owner" : "me",
+      "process" : "\/Applications\/GoLand.app\/Contents\/MacOS\/goland",
+      "remote-domains" : "github.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1556186971.7935691,
+      "modificationDate" : 1556186971.7935691,
+      "owner" : "me",
+      "process" : "\/Applications\/GoLand.app\/Contents\/MacOS\/goland",
+      "remote-domains" : "jetbrains.com"
+    }
+  ]
+}
